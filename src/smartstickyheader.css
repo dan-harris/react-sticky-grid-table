@@ -1,0 +1,29 @@
+#root {
+  height: 200vh;
+}
+
+// spacer
+section {
+  margin: 0;
+  height: 100px;
+  background: white
+    repeating-linear-gradient(45deg, #eee, #eee 5px, #fff 5px, #fff 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// smart sticky header
+header {
+  position: sticky;
+  top: -1px;
+  font-size: 3em;
+  transition: 0.2s ease-out;
+
+  &.isSticky {
+    &::after {
+      content: " is sticky";
+      color: salmon;
+    }
+  }
+}
