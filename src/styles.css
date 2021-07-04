@@ -21,7 +21,7 @@ body,
 }
 
 body {
-  font-family: "MonoLisa", sans-serif;
+  font-family: "MonoLisa", "Fira Code", sans-serif;
 }
 
 .app-wrapper {
